@@ -1,0 +1,55 @@
+.search {
+    margin-top: 50px;
+}
+
+.full h1 {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.1665px;
+    line-height: 42px;
+    color: #179DC7;
+}
+
+.full p {
+    margin-top: 30px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #323232;
+}
+
+.card {
+  background-color: #F9F9F9;
+  padding: 20px 0px 10px;
+  height: 220px;
+}
+
+.card .cardImg {
+    height: 150px;
+}
+
+.card .cardImg img#icon2 {
+    margin-top: 30px;
+}
+
+.listCard {
+    margin-top: 20px !important;
+
+}
+.card p {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.7306px;
+    line-height: 118%;
+    color: #323232;
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.card p a {
+    color: #323232;
+}

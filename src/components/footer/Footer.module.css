@@ -1,0 +1,95 @@
+#mainFooter{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+#mainFooter .help {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mainFooter .help svg {
+    margin-right: 20px;
+}
+
+#mainFooter .help .helpcenter {
+    border-bottom: 1px solid #fff;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+ #mainFooter .howto {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#mainFooter .address p span {
+    text-align: right;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+#mainFooter .address p {
+    text-align: right;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#mainFooter .flags .frenchFlag {
+    margin-right: 5px;
+}
+
+#mainFooter .flags .ukFlag {
+    margin-left: 5px;
+}
+
+#mainFooter .listIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    color: white;
+
+}
+
+#mainFooter .listIcon .icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+#mainFooter .listIcon .icon svg{
+    text-align: center;
+    padding-top: 3px;
+}
+
+#mainFooter .copyright {
+    margin-top: 30px;
+}
