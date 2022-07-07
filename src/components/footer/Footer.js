@@ -12,7 +12,6 @@ import {
   FaFacebookF,
   FaTwitter,
   FaYoutube,
-  FaHandPaper,
 } from "react-icons/fa";
 import { TbMail } from "react-icons/tb";
 
@@ -67,8 +66,12 @@ const Footer = () => {
           >
             <div>
               <div className={styles.flags}>
-                <img src={frenchFlag} className={styles.frenchFlag} />
-                <img src={ukFlag} className={styles.ukFlag} />
+                <img
+                  src={frenchFlag}
+                  alt="frenchFlag"
+                  className={styles.frenchFlag}
+                />
+                <img src={ukFlag} alt="ukFlag" className={styles.ukFlag} />
               </div>
             </div>
             <div>

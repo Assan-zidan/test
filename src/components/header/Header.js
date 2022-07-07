@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <img src={banner} className={styles.banner} />
+        <img src={banner} alt="banner" className={styles.banner} />
       </div>
     </>
   );

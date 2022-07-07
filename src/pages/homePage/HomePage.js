@@ -47,7 +47,7 @@ const HomePage = () => {
                           justifyContent="center"
                           alignItems="center"
                         >
-                          <img src={icon1} />
+                          <img src={icon1} alt="icon1" />
                         </Grid>
                       </div>
                       <p>
@@ -66,7 +66,7 @@ const HomePage = () => {
                           justifyContent="center"
                           alignItems="center"
                         >
-                          <img src={icon2} id={styles.icon2}/>
+                          <img src={icon2} alt="icon2" id={styles.icon2} />
                         </Grid>
                       </div>
 
