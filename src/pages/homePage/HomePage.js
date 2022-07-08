@@ -53,7 +53,7 @@ const HomePage = () => {
                       <p>
                         Know exactly where your files are at any given time of
                         the day and be at peace as we treat them .{" "}
-                        <Link to="/">Read more</Link>
+                        <Link to="#">Read more</Link>
                       </p>
                     </div>
                   </Grid>
@@ -73,7 +73,7 @@ const HomePage = () => {
                       <p>
                         We peruse thoroughly to vet emergencies from everyday
                         cases because our mission is to save lives.{" "}
-                        <Link to="/">Read more</Link>
+                        <Link to="#">Read more</Link>
                       </p>
                     </div>
                   </Grid>
