@@ -2,6 +2,10 @@
     margin-top: 50px;
 }
 
+.search .home {
+    margin-bottom: 50px;
+}
+
 .full h1 {
     font-family: 'Source Sans 3';
     font-style: normal;
@@ -51,5 +55,163 @@
 }
 
 .card p a {
+    color: #323232;
+}
+
+.woman {
+    width: 100%;
+    height:270px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.woman img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.woman #overlay {
+    height:inherit;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.488);
+}
+
+.woman #overlay .covid {
+    margin: 16px 14px;
+    background-color:red;
+    padding: 5px 8px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.074px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.woman #overlay .covid svg {
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.woman #overlay .arrows {
+    padding: 0 14px;
+    color: #FFFFFF;
+    font-size: 20px;
+    transition: font-size 0,2s ease-in-out;
+}
+
+.woman #overlay .arrows svg:hover {
+    font-size: 30px;
+}
+
+.woman #overlay .infected {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.0526px;
+    line-height: 118%;
+    color: #FFFFFF;
+    padding: 12px 14px;
+}
+
+.woman #overlay .infected p a{
+    color: #FFFFFF;
+}
+
+.terms {
+    margin-top: 30px;
+}
+
+.terms h6 {
+    font-family: 'Source Sans 3';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13.6419px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #AFAFAF;
+} 
+
+.terms p {
+    margin-top: 15px;
+   font-family: 'Source Sans 3';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13.6419px;
+    line-height: 16px;
+    color: #AFAFAF; 
+}
+
+.connexion .user {
+    font-size: 60px;
+    color: #323232;
+    line-height: 60px;
+}
+
+.connexion .form {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.moukiri {
+    background-color: #F9F9F9;
+    margin: 0 10px;
+    padding: 100px
+}
+
+.moukiri .block {
+    height: 685px;
+}
+
+.block .connexion .info {
+    height: 500px;
+}
+
+.block .connexion .info .forgot a{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9155px;
+    line-height: 23px;
+    text-align: center;
+    color: #179DC7;
+
+}
+
+.block .connexion .info button.button  {
+    width: 247px;
+    height: auto;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8944px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.block .connexion .info .register p a{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9155px;
+    line-height: 23px;
+    color: #179DC7;
+}
+
+.block .connexion .info .register p {
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9155px;
+    line-height: 23px;
     color: #323232;
 }
